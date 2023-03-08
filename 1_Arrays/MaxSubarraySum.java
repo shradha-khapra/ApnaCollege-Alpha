@@ -46,10 +46,10 @@ public class MaxSubarraySum {
 
         for(int i=0; i<arr.length; i++) {
             cs = cs + arr[i];
+            ms = Math.max(ms, cs);
             if(cs < 0) {
                 cs = 0;
             } 
-            ms = Math.max(ms, cs);
         }
 
         System.out.println("max subarray sum is : " + ms);
