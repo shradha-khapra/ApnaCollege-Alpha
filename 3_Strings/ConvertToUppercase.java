@@ -3,21 +3,20 @@ import java.util.*;
 //Problem : Convert all first letters of words to UPPERCASE
 public class ConvertToUppercase {
     public static String getUppercase(String str) {
-        StringBuilder newStr = new StringBuilder("");
-        char firstChar = Character.toUpperCase(str.charAt(0));
-        newStr.append(firstChar);
-        for(int i=0; i<str.length(); i++) {
-            if(str.charAt(i) == ' ' && i != str.length()-1) {
-                newStr.append(str.charAt(i));
-                i++;
+        StringBuilder newStr = new StringBuilder();
+        // space_found = true to capitalize first word
+        boolean space_found = true;
+        for (int i = 0; i < str.length(); i++) {
+            if (space_found) {
                 char ch = Character.toUpperCase(str.charAt(i));
                 newStr.append(ch);
             } else {
                 newStr.append(str.charAt(i));
             }
+            // every new word starts after a space
+            space_found = str.charAt(i) == ' ';
         }
-        
-        return newStr.toString();
+        return s.toString();
     }
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
