@@ -12,6 +12,23 @@ public class Patterns {
             System.out.println();
         }
     }
+public static void armstrongNo(int number) {   
+        int originalNumber, remainder, result = 0;
+
+        originalNumber = number;
+
+        while (originalNumber != 0)
+        {
+            remainder = originalNumber % 10;
+            result += Math.pow(remainder, 3);
+            originalNumber /= 10;
+        }
+
+        if(result == number)
+            System.out.println(number + " is an Armstrong number.");
+        else
+            System.out.println(number + " is not an Armstrong number.");
+}
 
     public static void inverted_rotated_halfPyramid(int n) {
         for(int i=1; i<=n; i++) {
@@ -213,6 +230,7 @@ public class Patterns {
 
     public static void main(String args[]) {
         hollowRectangle(4, 5);
+        armstrongNo(153);
         inverted_rotated_halfPyramid(4);
         inverted_halfPyramid_withNumbers(5);
         floyds_triangle(5);
