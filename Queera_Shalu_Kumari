@@ -1,0 +1,87 @@
+import java.util.*;
+
+public class JobSequencing {
+    static class Job {
+        int id;
+        int deadline;
+        int profit;
+        {
+        public Job(int id, int deadline, int profit) {
+            this.id = id;
+            this.deadline = deadline;
+            this.profit = profit;
+        public static void main(String args[]) {
+        int jobsInfo[][] = {{4, 20}, {1, 10}, {1, 40}, {1, 30}};
+        ArrayList<Job> jobs = new ArrayList<>();
+
+        for(int i=0; i<jobsInfo.length; i++) {
+            jobs.add(new Job(i, jobsInfo[i][0], jobsInfo[i][1]));
+       :findJavaFromJavaHome
+set JAVA_HOME=%JAVA_HOME:"=%
+set JAVA_EXE=%JAVA_HOME%/bin/java.exe
+
+if exist "%JAVA_EXE%" goto init
+    if exist "%JAVA_EXE%" goto init
+
+echo.
+echo ERROR: JAVA_HOME is set to an invalid directory: %JAVA_HOME%
+echo.
+echo Please set the JAVA_HOME variable in your environment to match the
+echo location of your Java installation.
+
+goto fail
+
+:init
+@rem Get command-line arguments, handling Windows variants
+
+if not "%OS%" == "Windows_NT" goto win9xME_args
+
+:win9xME_args
+@rem Slurp the command line arguments.
+set CMD_LINE_ARGS=
+set _SKIP=2
+
+:win9xME_args_slurp
+if "x%~1" == "x" goto execute
+
+set CMD_LINE_ARGS=%*
+
+:execute
+@rem Setup the command line
+
+echo.
+echo ERROR: JAVA_HOME is set to an invalid directory: %JAVA_HOME%
+echo.
+echo Please set the JAVA_HOME variable in your environment to match the
+echo location of your Java installation.
+
+goto fail
+
+:init
+@rem Get command-line arguments, handling Windows variants
+
+if not "%OS%" == "Windows_NT" goto win9xME_args
+
+:win9xME_args
+@rem Slurp the command line arguments.
+set CMD_LINE_ARGS=
+set _SKIP=2
+
+:win9xME_args_slurp
+if "x%~1" == "x" goto execute
+      for(int i=0; i<ans.size(); i++) {
+            System.out.print(ans.get(i)+" ");
+        System.out.println()
+    }
+            ;
+
+        
+          
+       
+
+
+    
+    
+
+    
+
