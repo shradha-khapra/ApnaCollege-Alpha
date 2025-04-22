@@ -1,4 +1,6 @@
 # Alpha
+
+Hi there buddies, 
 Alpha - Java Placement Course
 
 
