@@ -1,3 +1,6 @@
+Hello, I am a student of Delta Batch
+My name is Shivam Kumar
+
 # Alpha
 Alpha - Java Placement Course
 
